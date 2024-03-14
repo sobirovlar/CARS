@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1124px) {
+  .short {
+    height: 7vh;
+  }
+  .long {
+    height: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/banner-bg.png);
+    background-size: cover;
+  }
+  .footer__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navigation .navbar .fa-bars {
+    color: #fff;
+    font-size: 1.5rem;
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 15px;
+  }
+  .navigation {
+    transition: all 0.5s linear;
+    overflow: hidden;
+    height: 7vh;
+  }
+  .navigation .navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 1rem;
+    height: 100%;
+  }
+  .navigation .navbar img {
+    width: 20%;
+  }
+  .navigation .navbar__nav {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .navigation .navbar__nav a {
+    display: block;
+    margin-top: 15px;
+  }
+  .short {
+    height: 7vh;
+  }
+  .long {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+  .extra__navigation .extra__navbar {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+  }
+  .header .banner {
+    width: 100%;
+    padding-top: 15%;
+  }
+  .about__content, .filter__content, .offers__content, .choose__content, .costumer__content, .footer__content {
+    grid-template-columns: 1fr;
+  }
+  .filter__content .item select {
+    width: 100%;
+    height: 6vh;
+    font-size: 1.3rem;
+    transition: all 0.5s linear;
+  }
+  .offers__content .item .img {
+    height: 25vh;
+  }
+  .costumer__content .item .img {
+    width: 8%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .extra__navigation {
+    background-color: #fe5b29;
+    width: 100%;
+    height: 100%;
+  }
+  .extra__navigation .extra__navbar {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  .header .banner {
+    width: 100%;
+    padding-top: 1%;
+  }
+  .header .banner h1:first-of-type {
+    font-size: 2rem;
+  }
+  .header .banner h1:last-of-type {
+    font-size: 2rem;
+  }
+  .header .banner p {
+    width: 100%;
+  }
+  .contact {
+    background-color: #f76363;
+  }
+  .contact__content {
+    background-color: #f76363;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    border-radius: 0;
+  }
+  .contact__content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
